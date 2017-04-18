@@ -167,7 +167,7 @@ def main():
             name=dict(required=True),
             version=dict(default=None),
             state=dict(default="present", choices=PACKAGE_STATE_MAP.keys()),
-            client_bin=dict(default="/opt/karaf/bin/client", type="path")
+            client_bin=dict(default="/usr/local/karaf/bin/client", type="path")
         )
     )
 
